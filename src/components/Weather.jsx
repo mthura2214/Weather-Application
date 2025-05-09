@@ -69,7 +69,7 @@ const Weather = () => {
   useEffect(() => {
     // Initial weather search for a default city
     search("New York");
-  }, []);
+  }, [search]);
 
   return (
     <div className='weather'>
